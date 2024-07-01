@@ -1,11 +1,8 @@
   
 # 脚本说明：  
 1、脚本用于使用账号密码自动登录京东获取ck，自动更新ck到青龙  
-2、建议本地登录，不建议使用代理，第一次使用手机验证码之后一般不需要验证码就可以密码登录  
 3、程序仅更新被禁用的ck  
-4、脚本有py源码以及windows版本exe程序  
 5、py脚本需要opencv-python、pyppeteer、Pillow、asyncio、aiohttp等依赖  
-6、linux需要桌面环境，比如gnome用于图形处理  
 7、第一次使用会下载chrome浏览器，生成jdck.ini配置文件，等待即可，后续无需等待  
 8、此脚本适合于青龙内部运行，因青龙大部分不支持opencv插件，仅支持linux以及windows运行，建议使用windows版本，定时运行即可。  
 9、脚本基于3.12开发，其它版本python自行测试  
@@ -17,8 +14,6 @@
 如果windows有python环境，可能会遇到问题  
 windows定时任务参考https://blog.csdn.net/renluborenlubo/article/details/128655711  
 
-# linux使用说明(仅x86，其它架构自行测试)  无法运行，已放弃
-## 已知问题：一直要短信验证，不建议用  
 
 #### 安装python依赖
 ```
@@ -53,6 +48,7 @@ AutoJDCK_DP = http://192.168.2.1:22332    #设置登录代理（不建议设置�
 京东上车：
 除了车头都是随机账号模式
 wx机器人自动上车
+
 wx:iot_hh7999
 
 
